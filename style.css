@@ -1,0 +1,102 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#caixa{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgb(182, 182, 182);
+    border-radius: 50px;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    border: 3px solid rgb(204, 204, 204);
+}
+
+.cabeca {
+    font-size: 150%;
+    border-bottom: 3px solid black;
+    margin-left: 26%;
+    margin-right: 26%;
+    padding-top: 20px;   
+    padding-bottom: 10px; 
+    text-align: center; 
+}
+
+#form{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+/* Esse bloco dos input tive ajuda de IA do Google para aprender a mudar os inputs */
+.campo{
+    padding-top: 1%;
+    padding-left: 40%;
+    padding-right: 40%;
+    display: flex;
+    justify-content: center;
+    font-size: 110%;
+    padding-bottom: 0.5%;
+    flex-direction: column;
+    gap: 8px; 
+    max-width: 400px;
+    margin-bottom: 15px; 
+}
+/* Estilização para o input acompanhar o visual robusto */
+.campo input {
+  box-sizing: border-box;
+  padding: 12px;          /* Deixa o campo de texto mais alto e confortável */
+  font-size: 16px;
+  border: 3px solid #ccc;
+  border-radius: 20px;     /* Arredonda levemente as bordas */
+}
+
+/* Esse bloco dos input tive ajuda de IA do Google para aprender a mudar os inputs */
+.botoes input[type="submit"],
+.botoes input[type="reset"] {
+  box-sizing: border-box; /* Garante que o padding não quebre o layout */
+  flex: 1;                /* Faz ambos crescerem igualmente para ocupar o container */
+  padding: 12px 20px;     /* Aumenta o espaço interno (altura e largura) */
+  font-size: 105%;        /* Aumenta o tamanho do texto */
+  font-weight: bold;      /* Deixa o texto em negrito */
+  cursor: pointer;        /* Transforma a seta do mouse na "mãozinha" de clique */
+  transition: transform 0.2s ease; /* Efeito opcional de animação ao passar o mouse */
+  margin-bottom: 1%;
+}
+.botoes{
+    border-bottom: 2px solid black;
+    margin-left: 40.7%;
+    margin-right: 40.7%;
+}
+
+.campo input {
+    text-align: center;     /* Centraliza o texto dentro do próprio label */
+}
+
+
+#rodape{
+    padding-top: 5%;
+    font-size: 130%;
+}
+#rodape strong{
+    font-weight: bold;
+}
+#rodape p{
+    border-top: 3px solid black;
+    border-radius: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+a{
+    color: rgb(0, 0, 0);
+}
+
+.link{
+    padding-top: 1%;
+    display: flex;
+    justify-content: center;
+    font-size: 110%;
+    gap: 30px;                     /* Espaço horizontal exato entre cada link */
+}

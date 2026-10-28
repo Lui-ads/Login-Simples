@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css"> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images.jpg" type="image/png">
+</head>
+<body>
+    <main id="caixa">
+        <div id="login">
+            <header class="cabeca">
+                <p>Coloque seus dados de Login por favor 🙂</p>
+            </header>
+            <form id="form" action="arquivo.PHP" method="post">
+                <div class="campo">
+                    <label for="nome">Nome</label>
+                    <input id="nome" type="text" name="nome" required placeholder="Informe seu nome">
+                </div>
+                <div class="campo">
+                    <label for="email">E-mail</label>
+                    <input id="email" type="email" name="email" placeholder="Informe seu E-mail">
+                </div>
+                <div class="campo">
+                    <label for="passw">Senha</label>
+                    <input id="passw" type="password" required name="passw" placeholder="Informe sua senha">
+                </div>
+                <div class="botoes">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </div>
+            </form>
+        </div>
+
+        <footer id="rodape">
+            <p>Sistema <strong>simples</strong> de login fake para treino de HTML e CSS</p>
+            <div class="link">
+                <a href="https://www.youtube.com/@4F69-69">Meu canal no YouTube</a>
+                <a href="https://github.com/Lui-ads">Meu Github</a>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
